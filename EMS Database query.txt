@@ -1,0 +1,12 @@
+create database EmployeeDB;
+use EmployeeDB;
+
+select * from employees;
+
+
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    designation VARCHAR(255),
+    salary DOUBLE
+);
